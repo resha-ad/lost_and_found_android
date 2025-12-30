@@ -1,0 +1,4 @@
+Steps:
+1. First make Hive file
+2. Create Failure Class
+3. Create Entity Class
