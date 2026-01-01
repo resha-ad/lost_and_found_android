@@ -17,7 +17,7 @@ class BatchViewModel extends Notifier<BatchState> {
   BatchState build() {
     _getAllBatchUsecase = ref.read(GetAllBatchUsecaseProvider);
     _updateBatchUsecase = ref.read(UpdateBatchUsecaseProvider);
-    _createBatchUsecase = ref.read(CreateBatchUsecaseProvider);
+    _createBatchUsecase = ref.read(createBatchUsecaseProvider);
     return BatchState();
   }
 
